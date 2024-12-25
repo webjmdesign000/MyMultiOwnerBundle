@@ -1,0 +1,13 @@
+{
+  "name": "deerTechnology/mautic-multi-owner-bundle",
+  "description": "Mautic plugin to assign multiple owners to a contact from a campaign action",
+  "type": "mautic-plugin",
+  "autoload": {
+    "psr-4": {
+      "MauticPlugin\\MyMultiOwnerBundle\\": ""
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
