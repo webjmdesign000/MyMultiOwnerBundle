@@ -21,6 +21,19 @@ return [
         ],
     ],
 
+    'services' => [
+    'forms' => [
+        'my_multi_owner_assign_multiple_owners.form' => [
+            'class'     => \MauticPlugin\MyMultiOwnerBundle\Form\Type\AssignMultipleOwnersType::class,
+            'arguments' => [
+                'mautic.user.model.user',
+            ],
+        ],
+    ],
+    // ...
+],
+
+
     'campaigns' => [
         'actions' => [
             'my_multi_owner.campaign.action.assign_multiple_owners' => [
